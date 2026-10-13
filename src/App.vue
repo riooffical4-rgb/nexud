@@ -91,26 +91,7 @@ const thirdPartyServices = [
   { name: 'Google Maps Platform', url: 'mapsplatform.google.com', type: 'Peta dan lokasi' },
 ]
 
-// --- TECH STACK LENGKAP ---
-const techStackItems = [
-  { name: 'HTML5', cat: 'Frontend', color: 'text-orange-600 bg-orange-50 border-orange-200' },
-  { name: 'CSS3', cat: 'Frontend', color: 'text-blue-600 bg-blue-50 border-blue-200' },
-  { name: 'JavaScript', cat: 'Frontend', color: 'text-yellow-600 bg-yellow-50 border-yellow-200' },
-  { name: 'TypeScript', cat: 'Frontend', color: 'text-blue-800 bg-blue-100 border-blue-300' },
-  { name: 'Bootstrap', cat: 'Frontend', color: 'text-purple-600 bg-purple-50 border-purple-200' },
-  { name: 'Tailwind CSS', cat: 'Frontend', color: 'text-cyan-600 bg-cyan-50 border-cyan-200' },
-  { name: 'React.js', cat: 'Frontend', color: 'text-sky-600 bg-sky-50 border-sky-200' },
-  { name: 'Next.js', cat: 'Frontend', color: 'text-slate-900 bg-slate-100 border-slate-300' },
-  { name: 'Vue.js', cat: 'Frontend', color: 'text-green-600 bg-green-50 border-green-200' },
-  { name: 'Express.js', cat: 'Backend', color: 'text-gray-800 bg-gray-100 border-gray-300' },
-  { name: 'Laravel', cat: 'Backend', color: 'text-red-600 bg-red-50 border-red-200' },
-  { name: 'MySQL', cat: 'Database', color: 'text-blue-700 bg-blue-50 border-blue-200' },
-  { name: 'PostgreSQL', cat: 'Database', color: 'text-indigo-700 bg-indigo-50 border-indigo-200' },
-  { name: 'MongoDB', cat: 'Database', color: 'text-green-700 bg-green-50 border-green-200' },
-  { name: 'Redis', cat: 'Database', color: 'text-red-700 bg-red-50 border-red-200' },
-  { name: 'Docker', cat: 'DevOps', color: 'text-blue-600 bg-blue-50 border-blue-200' },
-  { name: 'Git', cat: 'DevOps', color: 'text-orange-700 bg-orange-50 border-orange-200' },
-]
+// --- DATA TECH STACK DIHAPUS SESUAI PERMINTAAN ---
 
 const contactLinks = [
   { label: 'Instagram Bisnis', value: '@nexudid', url: 'https://instagram.com/nexudid' },
@@ -180,26 +161,61 @@ const getColorClasses = (color) => {
       </Transition>
     </nav>
 
-    <!-- HERO SECTION (CLEAN & MINIMALIST - NO MOCKUP) -->
-    <section class="relative overflow-hidden pt-32 pb-32 lg:pt-48 lg:pb-48 bg-gradient-to-b from-primary-50/50 to-white">
+    <!-- HERO SECTION (UPDATED: TENTANG NEXUD) -->
+    <section class="relative overflow-hidden pt-24 pb-24 lg:pt-32 lg:pb-32 bg-gradient-to-b from-primary-50/50 to-white">
       <!-- Subtle Background Glow -->
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-primary-100/30 rounded-full blur-3xl pointer-events-none"></div>
       
-      <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-100/50 border border-primary-200 text-primary-700 text-xs font-bold uppercase tracking-wider mb-8 animate-fade-in-up">
-          Digital Solutions for Business 
+          Tentang Nexud
         </div>
         
-        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-black text-slate-900 leading-[1.1] mb-8 tracking-tight animate-fade-in-up" style="animation-delay: 0.1s;">
-          Bisnis Anda Membutuhkan <br />
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-accent-600">Solusi Digital?</span>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 leading-[1.1] mb-8 tracking-tight animate-fade-in-up" style="animation-delay: 0.1s;">
+          Mengubah Ide Menjadi Solusi Digittal <br />
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-accent-600">Solusi Digital</span>
         </h1>
         
-        <p class="text-lg sm:text-xl text-slate-600 mb-12 leading-relaxed max-w-2xl mx-auto animate-fade-in-up" style="animation-delay: 0.2s;">
-          Di era digital, bisnis tidak cukup hanya mengandalkan promosi. Website dan aplikasi web dapat membantu bisnis menjangkau pelanggan, mengelola operasional, mengotomatisasi pekerjaan, dan mengembangkan layanan.
-        </p>
+        <div class="space-y-6 text-lg sm:text-xl text-slate-600 mb-12 leading-relaxed max-w-3xl mx-auto animate-fade-in-up" style="animation-delay: 0.2s; text-align: left;">
+          <p>
+            Nexud adalah layanan pengembangan website dan aplikasi web yang membantu bisnis, organisasi, dan individu membangun solusi digital sesuai kebutuhan mereka.
+          </p>
+          <p>
+            Kami berfokus pada pengembangan solusi web secara menyeluruh, mulai dari website profesional untuk memperkuat kehadiran bisnis di dunia digital hingga aplikasi web yang membantu mengelola data, mengoptimalkan proses kerja, dan mengintegrasikan berbagai layanan.
+          </p>
+          <p>
+            Dengan pendekatan yang terstruktur dan pemilihan teknologi yang sesuai, Nexud berupaya menghadirkan solusi digital yang fungsional, mudah digunakan, dan dapat dikembangkan mengikuti kebutuhan Anda.
+          </p>
+        </div>
+
+        <!-- Fokus Nexud List -->
+        <div class="bg-white rounded-2xl p-8 shadow-xl shadow-slate-200/50 border border-slate-100 max-w-4xl mx-auto mb-12 animate-fade-in-up" style="animation-delay: 0.3s;">
+          <h3 class="text-left font-bold text-slate-900 mb-4 text-lg">Fokus Nexud:</h3>
+          <div class="grid sm:grid-cols-2 gap-4 text-left">
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary-600 shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-slate-700 text-sm">Pengembangan website profesional dan website bisnis.</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary-600 shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-slate-700 text-sm">Pembuatan aplikasi web dan sistem informasi.</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary-600 shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-slate-700 text-sm">Pengembangan backend, REST API, dan integrasi sistem.</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-primary-600 shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-slate-700 text-sm">Pembuatan aplikasi realtime sesuai kebutuhan.</span>
+            </div>
+            <div class="flex items-start gap-3 sm:col-span-2">
+              <svg class="w-5 h-5 text-primary-600 shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-slate-700 text-sm">Deployment, pemeliharaan, dan pengembangan fitur lanjutan.</span>
+            </div>
+          </div>
+        </div>
         
-        <div class="flex flex-wrap justify-center gap-4 animate-fade-in-up" style="animation-delay: 0.3s;">
+        <div class="flex flex-wrap justify-center gap-4 animate-fade-in-up" style="animation-delay: 0.4s;">
           <a href="https://wa.me/6282157303890" target="_blank" class="inline-flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-full font-bold text-base hover:bg-green-700 hover:shadow-xl hover:shadow-green-200 hover:-translate-y-1 transition-all duration-300">
             Konsultasi via WhatsApp
           </a>
@@ -207,6 +223,10 @@ const getColorClasses = (color) => {
             Jelajahi Layanan
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </a>
+        </div>
+        
+        <div class="mt-12 text-sm font-bold text-slate-400 tracking-wide uppercase animate-fade-in-up" style="animation-delay: 0.5s;">
+          Nexud — Ide Anda, Solusi Digital Kami.
         </div>
       </div>
     </section>
@@ -310,28 +330,13 @@ const getColorClasses = (color) => {
       </div>
     </section>
 
-    <!-- TEKNOLOGI & INFRASTRUKTUR -->
+    <!-- TEKNOLOGI & INFRASTRUKTUR (TECH STACK DIHAPUS) -->
     <section id="teknologi" class="py-24 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <span class="inline-block bg-slate-100 text-slate-700 text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">Infrastructure & Stack</span>
-          <h2 class="text-3xl lg:text-4xl font-black text-slate-900 mb-4">Teknologi & Layanan untuk Solusi Digital Anda</h2>
-          <p class="text-slate-600 text-lg">Kami menggunakan teknologi terbaik dan layanan terpercaya untuk membantu bisnis Anda membangun website dan aplikasi web yang stabil, aman, dan siap berkembang.</p>
-        </div>
-
-        <!-- Tech Stack Grid -->
-        <div class="mb-16">
-          <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-            <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
-            Technology Stack Modern
-          </h3>
-          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            <div v-for="tech in techStackItems" :key="tech.name" 
-                 :class="[tech.color, 'border rounded-xl p-4 flex flex-col items-center justify-center gap-2 hover:shadow-md hover:scale-105 transition-all duration-300 cursor-default']">
-              <span class="text-lg font-bold">{{ tech.name }}</span>
-              <span class="text-[10px] uppercase tracking-wider opacity-70">{{ tech.cat }}</span>
-            </div>
-          </div>
+          <span class="inline-block bg-slate-100 text-slate-700 text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">Infrastructure</span>
+          <h2 class="text-3xl lg:text-4xl font-black text-slate-900 mb-4">Infrastruktur & Layanan Terpercaya</h2>
+          <p class="text-slate-600 text-lg">Kami menggunakan layanan terpercaya untuk membantu bisnis Anda membangun website dan aplikasi web yang stabil, aman, dan siap berkembang.</p>
         </div>
 
         <!-- Hosting Categories -->
